@@ -1,0 +1,28 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080808"><title>BLAZE VISIONMARK DESIGN</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<div class="loader" id="loader"><img src="Images/BLAZE_VISIONMARK_DESIGN_ORIGINAL.jpg"><span></span><p>LOADING BVD</p></div>
+<header><button class="brand" onclick="go('home')"><img src="Images/BLAZE_VISIONMARK_DESIGN_ORIGINAL.jpg"></button><button id="theme">☀️</button></header>
+<main>
+<section id="home" class="hero"><div><small>BLAZE VISIONMARK DESIGN</small><h1>Your vision.<br><em>Our design.</em></h1><p>Professional graphic design for brands, businesses, events and social media.</p><button onclick="go('designs')">Explore Designs</button><button class="outline" onclick="go('order')">Order a Design</button></div></section>
+<section id="designs" class="section"><small>PORTFOLIO</small><h2>Our Designs</h2><div class="filters"><button class="active" onclick="filter('all',this)">All</button><button onclick="filter('poster',this)">Posters</button><button onclick="filter('logo',this)">Logos</button></div>
+<div class="grid">
+<article class="card logo" data-type="logo"><img src="Images/BLAZE_VISIONMARK_DESIGN_ORIGINAL.jpg"><div><b>LOGO DESIGN</b><h3>BLAZE VISIONMARK DESIGN</h3><p>Our original brand identity.</p><button onclick="order('Logo Design')">Order</button></div></article>
+<article class="card poster" data-type="poster"><img src="Images/poster_01.png"><div><b>POSTER DESIGN</b><h3>Graphic Design Services</h3><p>Professional promotional artwork.</p><button onclick="order('Poster Design')">Order</button></div></article>
+<article class="card poster" data-type="poster"><img src="Images/poster_02.jpg"><div><b>POSTER DESIGN</b><h3>Professional Design</h3><p>Promotional design artwork.</p><button onclick="order('Poster Design')">Order</button></div></article>
+<article class="card poster" data-type="poster"><img src="Images/poster_03.jpg"><div><b>POSTER DESIGN</b><h3>Design Services</h3><p>Creative promotional artwork.</p><button onclick="order('Poster Design')">Order</button></div></article>
+<article class="card poster" data-type="poster"><img src="Images/poster_04.png"><div><b>POSTER DESIGN</b><h3>Creative Showcase</h3><p>Creative BVD artwork.</p><button onclick="order('Poster Design')">Order</button></div></article>
+<article class="card poster" data-type="poster"><img src="Images/poster_05.png"><div><b>POSTER DESIGN</b><h3>Design Packages</h3><p>BVD services artwork.</p><button onclick="order('Poster Design')">Order</button></div></article>
+</div></section>
+<section class="section"><small>SERVICES</small><h2>What We Do</h2><div class="services"><div>🔥<h3>Logo Design</h3><p>Distinctive brand identities.</p></div><div>🖼️<h3>Poster Design</h3><p>Promotional graphics.</p></div><div>📱<h3>Social Media</h3><p>Modern social graphics.</p></div><div>💼<h3>Business Branding</h3><p>Professional visual identities.</p></div></div></section>
+<section id="order" class="section"><small>ORDER</small><h2>Start Your Project</h2><form id="form">
+<input id="name" placeholder="Your name" required><input id="phone" placeholder="Your WhatsApp number" required>
+<select id="type" required><option value="">Choose a service</option><option>Logo Design</option><option>Poster Design</option><option>Social Media Design</option><option>Business Branding</option><option>Other</option></select>
+<textarea id="details" placeholder="Describe your design..." required></textarea><input id="deadline" type="date"><input id="budget" placeholder="Budget (optional)">
+<button class="submit">🔥 SEND ORDER ON WHATSAPP</button></form></section>
+<section id="about" class="section about"><small>ABOUT</small><h2>BLAZE VISIONMARK DESIGN</h2><p>We turn ideas into professional visual designs that help businesses, brands and individuals stand out.</p><p>From logos and posters to digital branding, BVD focuses on creative, modern and practical design.</p><img src="Images/BLAZE_VISIONMARK_DESIGN_ORIGINAL.jpg"></section>
+<section id="contact" class="section"><small>CONTACT</small><h2>Let's work together.</h2><div class="contact"><a id="wa" href="#">📲 WhatsApp BVD</a><p>Email can be added later.</p></div></section>
+</main>
+<nav><button onclick="go('home')">🏠<span>Home</span></button><button onclick="go('designs')">🎨<span>Designs</span></button><button onclick="go('order')">🛒<span>Order</span></button><button onclick="go('about')">👤<span>About</span></button><button onclick="go('contact')">📞<span>Contact</span></button></nav>
+<script src="script.js"></script></body></html>
